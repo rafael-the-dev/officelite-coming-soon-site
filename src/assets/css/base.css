@@ -1,0 +1,19 @@
+.px {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+body {
+    background-color: #684BB1;
+    background-image: url('../images/bg-mobile.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        background-image: url('../images/bg-desktop.svg');
+    }
+}
