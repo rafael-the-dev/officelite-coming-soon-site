@@ -4,3 +4,30 @@
     background-size: 200px, contain;
     height: 800px;
 }
+
+@media screen and (min-width: 500px){
+    .hero {
+        background-size: 280px, contain;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .hero {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .hero {
+        background-position: right 50px bottom 100px, right -300px center;
+        background-size: 300px, cover;
+        height: 600px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .hero__title, .hero__description {
+        max-width: 60%;
+    }
+}
