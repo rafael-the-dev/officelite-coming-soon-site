@@ -31,3 +31,21 @@
         max-width: 60%;
     }
 }
+
+@media screen and (min-width: 976px){
+    .hero {
+        background-size: 350px, cover;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .hero {
+        background-position: right 96px bottom -61px, right -600px top -691px;
+        background-size: 450px, cover;
+        height: 550px;
+    }
+
+    .hero__title, .hero__description {
+        max-width: 50%;
+    }
+}
