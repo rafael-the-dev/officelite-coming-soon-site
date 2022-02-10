@@ -1,0 +1,11 @@
+
+
+@media screen and (min-width: 900px) {
+    .table__description-column {
+        width: 33.3333333333%;
+    }
+
+    .table__plans-column {
+        width: 16.6666666667%;
+    }
+}
