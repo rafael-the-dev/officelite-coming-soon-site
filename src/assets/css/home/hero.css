@@ -1,0 +1,6 @@
+.hero {
+    background-image: url(../../images/home/illustration-charts.svg);
+    background-position: center top 100px;
+    background-size: 200px;
+    height: 800px;
+}

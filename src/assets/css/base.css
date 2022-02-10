@@ -3,6 +3,37 @@
     padding-right: 5%;
 }
 
+.dark-blue-bg {
+    background-color: #25293A;
+}
+
+.blue-color {
+    color: #333950;
+}
+
+.light-sky-blue-bg {
+    color: #829CFF;
+}
+
+.sky-blue-bg {
+    background-color: #5175FF;
+}
+
+.dark-blue-color {
+    color: #25293A;
+}
+
+.light-sky-blue-color {
+    color: #829CFF;
+}
+
+.grey-color {
+    color: #747B95;
+}
+
+.sky-blue-color {
+    color: #5175FF;
+}
 
 @media screen and (min-width: 900px) {
     
