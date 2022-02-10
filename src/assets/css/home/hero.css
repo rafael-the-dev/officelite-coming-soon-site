@@ -1,6 +1,6 @@
 .hero {
-    background-image: url(../../images/home/illustration-charts.svg);
-    background-position: center top 100px;
-    background-size: 200px;
+    background-image: url(../../images/home/illustration-charts.svg), url(../../images/home/bg-pattern-header.svg);
+    background-position: center top 100px, center top;
+    background-size: 200px, contain;
     height: 800px;
 }
