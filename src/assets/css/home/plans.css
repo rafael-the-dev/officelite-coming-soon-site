@@ -1,0 +1,7 @@
+.plans {
+    transform: translate(0, 50%);
+}
+
+.plan__button {
+    background-color: #979797;
+}
