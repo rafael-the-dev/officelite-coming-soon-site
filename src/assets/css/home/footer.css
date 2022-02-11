@@ -8,9 +8,27 @@
     width: 23%;
 }
 
+@media screen and (min-width: 600px){
+    .footer {
+        height: 820px;
+        margin-top: 400px;
+    }
+}
 
 @media screen and (min-width: 768px){
+    .footer {
+        height: 650px;
+    }
+
     .footer__content {
         max-width: 50%;
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    .footer {
+        height: 472px;
+        margin-top: calc(186px + 8rem);
     }
 }

@@ -7,6 +7,15 @@
     top: 0;
 }
 
+
+
 .plan__button {
     background-color: #979797;
+}
+
+
+@media screen and (min-width: 960px) {
+    .plans__card {
+        width: 31.33333%;
+    }
 }

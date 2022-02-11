@@ -43,6 +43,7 @@
         background-position: right 96px bottom -61px, right -600px top -691px;
         background-size: 450px, cover;
         height: 550px;
+        margin-bottom: 8rem;
     }
 
     .hero__title, .hero__description {
