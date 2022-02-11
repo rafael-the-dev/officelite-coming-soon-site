@@ -7,6 +7,11 @@ body {
     padding-right: 5%;
 }
 
+
+.time-container {
+    width: 23%;
+}
+
 .dark-blue-bg {
     background-color: #25293A;
 }
@@ -21,6 +26,10 @@ body {
 
 .sky-blue-bg {
     background-color: #5175FF;
+}
+
+.very-light-sky-blue-bg {
+    background-color: #5175ff2e;
 }
 
 .blue-color {

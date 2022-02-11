@@ -1,0 +1,6 @@
+.hero {
+    background-image: url(../../images/home/bg-pattern-header.svg);
+    background-position: center top;
+    background-size: contain;
+    height: 650px;
+}
