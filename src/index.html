@@ -5,10 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="./assets/css/tailwind.css" rel="stylesheet" type="text/css" />
+        <!-- build:css assets/css/homepage.css -->
         <link href="./assets/css/base.css" rel="stylesheet" type="text/css" />
         <link href="./assets/css/header.css" rel="stylesheet" type="text/css" />
+        <!-- endbuild -->
         <link href="./assets/css/home/hero.css" rel="stylesheet" type="text/css" />
+        <link href="./assets/css/home/footer.css" rel="stylesheet" type="text/css" />
         <title>Document</title>
+        <!-- npx tailwindcss -i ./src/assets/css/input.css -o ./dist/assets/css/tailwind.css --watch-->
     </head>
     <body>
         <header class="header absolute w-full flex justify-center md:justify-start px">
@@ -38,5 +42,15 @@
                 </a>
             </section>
         </main>
+        <footer class="footer dark-blue-bg px bg-no-repeat bg-center py-24 flex flex-col items-center">
+            <h2 class="uppercase text-white">
+                Coming <span class="sky-blue-color">4 Nov 2020</span>
+            </h2>
+            <a 
+                class="px-8 py-3 capitalize rounded-full text-white sky-blue-bg mt-6"
+                href="/">
+                Get started
+            </a>
+        </footer>
     </body>
 </html>
