@@ -1,5 +1,7 @@
 .footer {
     background-image: url(../../images/home/bg-pattern-footer.svg);
+    height: 960px;
+    margin-top: 600px;
 }
 
 .footer__time-container {
