@@ -1,3 +1,7 @@
 .footer {
     background-image: url(../../images/home/bg-pattern-footer.svg);
 }
+
+.footer__time-container {
+    width: 23%;
+}
