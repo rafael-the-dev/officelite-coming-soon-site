@@ -7,6 +7,10 @@
     top: 0;
 }
 
+.plans__card:nth-child(2) {
+   background-image: url(../../images/home/bg-pattern-pricing.svg);
+}
+
 
 
 .plan__button {
