@@ -824,6 +824,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   outline-offset: 2px;
 }
 
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
 @media (min-width: 640px) {
   .sm\:block {
     display: block;
