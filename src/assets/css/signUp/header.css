@@ -1,0 +1,5 @@
+@media screen and (min-width: 1280px) {
+   .sign-up-header {
+       width: calc(100% - 400px);
+   }
+}

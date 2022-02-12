@@ -1,0 +1,8 @@
+.form-container {
+    background-image: url(../../images/home/bg-pattern-footer.svg);
+    height: 300px;
+}
+
+.form {
+    transform: translate(0, -50%);
+}
