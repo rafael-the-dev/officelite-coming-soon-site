@@ -43,7 +43,7 @@ const usemin = () => {
 };
 
 const copy = () => {
-    return src(['src/**/*.html', 'src/**/*.svg', '!node_module/**', 'src/**/*.css', '!src/assets/css/input.css'])
+    return src(['src/**/*.html', 'src/**/*.js', 'src/**/*.svg', '!node_module/**', 'src/**/*.css', '!src/assets/css/input.css'])
         .pipe(dest('dist'))
 };
 

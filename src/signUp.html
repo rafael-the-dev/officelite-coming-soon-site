@@ -5,6 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="./assets/css/tailwind.css" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Big+Shoulders+Display:wght@400;500;600;700;800;900&family=Big+Shoulders+Text:wght@400;500;600;700;800;900&family=Kumbh+Sans:wght@400;500;600;700&family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
         <!-- build:css assets/css/homepage.css -->
         <link href="./assets/css/base.css" rel="stylesheet" type="text/css" />
         <link href="./assets/css/header.css" rel="stylesheet" type="text/css" />
@@ -72,26 +75,27 @@
                         placeholder="Email Address"
                         type="email"
                     />
-                    <div class="flex relative">
-                        <label class="font-bold capitalize blue-color">Basic pack</label>
-                        <div class="grow ml-2 grey-color relative">
+                    <div class="relative">
+                        <div 
+                            class="grow px-2 py-2.5 mb-3.5 grey-color border-b border-solid border-slate-200"
+                            data-dropdown-toggle="">
                             <p>
                                 <span class="blue-color font-bold">Basic Pack</span> Free
                             </p>
                             <span></span>
                         </div>
-                        <ul class="absolute z-10 bg-white px rounded-lg form__dropdown-list shadow-md w-full">
+                        <ul 
+                            class="absolute z-10 hidden bg-white px rounded-lg form__dropdown-list 
+                            shadow-md w-full"
+                            data-dropdown-list>
                             <li class="px-3 py-2.5 grey-color border-b border-solid border-slate-200">
-                                <span class="blue-color font-bold">Basic Pack</span> Free
+                                <span class="blue-color font-bold capitalize">BasicpPack</span> Free
                             </li>
                             <li class="px-3 py-2.5 grey-color border-b border-solid border-slate-200">
-                                <span class="blue-color font-bold">Basic Pack</span> Free
-                            </li>
-                            <li class="px-3 py-2.5 grey-color border-b border-solid border-slate-200">
-                                <span class="blue-color font-bold">Basic Pack</span> Free
+                                <span class="blue-color font-bold capitalize">Pro ack</span> Free
                             </li>
                             <li class="px-3 py-2.5 grey-color">
-                                <span class="blue-color font-bold">Basic Pack</span> Free
+                                <span class="blue-color font-bold capitalize">Ultimate pack</span> Free
                             </li>
                         </ul>
                     </div>
@@ -114,6 +118,7 @@
                 </form>
             </div>
         </main>
-        <footer></footer>
+        <footer></footer> 
+        <script src="assets/js/signUp.js"></script>
     </body>
 </html>
