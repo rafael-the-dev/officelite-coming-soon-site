@@ -21,7 +21,6 @@ window.addEventListener('load', () => {
     dropDownList = document.querySelector('[data-dropdown-list]');//
     dropdownButton = document.querySelector('[data-dropdown-toggle]');
     selectedItem = document.querySelector('[data-dropdown-selected-item]');
-    console.log(selectedItem)
 
     dropdownButton.addEventListener('click', buttonClickHandler)
     document.querySelectorAll('[data-dropdown-list-item]').forEach(element => {

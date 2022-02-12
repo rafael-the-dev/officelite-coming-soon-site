@@ -19,17 +19,9 @@
 }
 
 @media screen and (min-width: 1280px) {
-    body {
-        align-items: stretch;
-        display: flex;
-        height: 100vh;
-    }
-
-    main {
-        flex-grow: 1;
-    }
-
-    footer {
-        width: 400px;
+    .hero {
+        box-sizing: border-box;
+        height: auto;
+        padding-right: 25%;
     }
 }

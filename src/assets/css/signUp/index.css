@@ -1,0 +1,7 @@
+@media screen and (min-width: 1280px) {
+    main {
+        align-items: stretch;
+        display: flex;
+        height: 100vh;
+    }
+}
