@@ -6,3 +6,7 @@
 .form {
     transform: translate(0, -50%);
 }
+
+.form__dropdown-list {
+    top: 27px;
+}
