@@ -80,7 +80,7 @@
                             class="grow px-2 py-2.5 mb-3.5 grey-color border-b border-solid border-slate-200
                             hover:cursor-pointer"
                             data-dropdown-toggle="">
-                            <p>
+                            <p data-dropdown-selected-item="">
                                 <span class="blue-color font-bold">Basic Pack</span> Free
                             </p>
                             <span></span>
@@ -89,13 +89,15 @@
                             class="absolute z-10 hidden bg-white px rounded-lg form__dropdown-list 
                             shadow-md w-full"
                             data-dropdown-list>
-                            <li class="px-3 py-2.5 grey-color border-b border-solid border-slate-200">
-                                <span class="blue-color font-bold capitalize">BasicpPack</span> Free
+                            <li class="px-3 py-2.5 grey-color border-b border-solid border-slate-200"
+                                data-dropdown-list-item="basic-pack">
+                                <span class="blue-color font-bold capitalize">Basic pack</span> Free
                             </li>
-                            <li class="px-3 py-2.5 grey-color border-b border-solid border-slate-200">
+                            <li class="px-3 py-2.5 grey-color border-b border-solid border-slate-200"
+                                data-dropdown-list-item="pro-pack">
                                 <span class="blue-color font-bold capitalize">Pro ack</span> Free
                             </li>
-                            <li class="px-3 py-2.5 grey-color">
+                            <li class="px-3 py-2.5 grey-color" data-dropdown-list-item="ultimate-pack">
                                 <span class="blue-color font-bold capitalize">Ultimate pack</span> Free
                             </li>
                         </ul>
