@@ -17,6 +17,7 @@
     "tailwindcss": "^3.0.19"
   },
   "dependencies": {
-    "gulp-htmlmin": "^5.0.1"
+    "gulp-htmlmin": "^5.0.1",
+    "react-hook-form": "^7.27.0"
   }
 }
