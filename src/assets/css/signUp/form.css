@@ -11,6 +11,11 @@
     top: 44px;
 }
 
+.error-input {
+    background-image: url(../../images/icon-cross.svg);
+    background-position: right 15px center;
+}
+
 .error-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: red;
     opacity: 1; /* Firefox */
