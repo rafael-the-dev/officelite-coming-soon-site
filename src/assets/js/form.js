@@ -4,6 +4,23 @@ let phoneNumberInput;
 let companyInput;
 let isValidForm = false;
 
+const validator = (element) => {
+    const value = element.value.trim();
+
+    if(!Boolean(value)) {
+        isValidForm = false;
+        element.classList.add('border-red-600', 'error-input')
+    } else {
+        isValidForm = true;
+        element.classList.remove('border-red-600', 'error-input');
+    }
+};
+
+const reset = (element) => {
+    element.classList.remove('border-red-600', 'error-input');
+    element.value = '';
+};
+
 const submitHandler = event => {
     event.preventDefault();
     console.log('hello')
@@ -13,27 +30,17 @@ const submitHandler = event => {
     const phoneNumber = nameInput.value.trim();
     const company = nameInput.value.trim();
 
-    if(!Boolean(name)) {
-        isValidForm = false;
-        nameInput.classList.add('border-red-600', 'error-input')
-    }
+    validator(nameInput)
+    validator(emailInput)
+    validator(phoneNumberInput)
+    validator(companyInput)
 
-    if(!Boolean(email)) {
-        isValidForm = false;
-        emailInput.classList.add('border-red-600', 'error-input')
+    if(isValidForm) {
+        reset(nameInput)
+        reset(emailInput)
+        reset(phoneNumberInput)
+        reset(companyInput)
     }
-
-    if(!Boolean(phoneNumber)) {
-        isValidForm = false;
-        phoneNumberInput.classList.add('border-red-600', 'error-input')
-    }
-
-    if(!Boolean(company)) {
-        isValidForm = false;
-        companyInput.classList.add('border-red-600', 'error-input')
-    }
-
-    console.log('is valid form', isValidForm);
 };
 
 const start = () => { 

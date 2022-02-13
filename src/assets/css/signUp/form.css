@@ -14,6 +14,7 @@
 .error-input {
     background-image: url(../../images/icon-cross.svg);
     background-position: right 15px center;
+    color: rgb(220 38 38 / 1)
 }
 
 .error-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
