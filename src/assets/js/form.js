@@ -15,22 +15,22 @@ const submitHandler = event => {
 
     if(!Boolean(name)) {
         isValidForm = false;
-        nameInput.classList.add('border-red-700')
+        nameInput.classList.add('border-red-600', 'error-input')
     }
 
     if(!Boolean(email)) {
         isValidForm = false;
-        emailInput.classList.add('border-red-700')
+        emailInput.classList.add('border-red-600', 'error-input')
     }
 
     if(!Boolean(phoneNumber)) {
         isValidForm = false;
-        phoneNumberInput.classList.add('border-red-700')
+        phoneNumberInput.classList.add('border-red-600', 'error-input')
     }
 
     if(!Boolean(company)) {
         isValidForm = false;
-        companyInput.classList.add('border-red-700')
+        companyInput.classList.add('border-red-600', 'error-input')
     }
 
     console.log('is valid form', isValidForm);
