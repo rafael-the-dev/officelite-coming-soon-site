@@ -40,6 +40,7 @@ const submitHandler = event => {
         reset(emailInput)
         reset(phoneNumberInput)
         reset(companyInput)
+        location.href = './index.html'
     }
 };
 
