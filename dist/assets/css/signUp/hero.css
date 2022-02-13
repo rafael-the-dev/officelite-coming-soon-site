@@ -1,0 +1,1 @@
+.hero{background-image:url(../../images/home/bg-pattern-header.svg);background-position:center top;background-size:contain;height:650px}@media screen and (min-width:457px){.hero{padding-bottom:3rem;padding-top:3rem}}@media screen and (min-width:600px){.hero{background-image:none}}@media screen and (min-width:1280px){.hero{box-sizing:border-box;height:auto;padding-right:25%}}
