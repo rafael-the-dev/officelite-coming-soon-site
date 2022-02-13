@@ -15,18 +15,22 @@ const submitHandler = event => {
 
     if(!Boolean(name)) {
         isValidForm = false;
+        nameInput.classList.add('border-red-700')
     }
 
     if(!Boolean(email)) {
         isValidForm = false;
+        emailInput.classList.add('border-red-700')
     }
 
     if(!Boolean(phoneNumber)) {
         isValidForm = false;
+        phoneNumberInput.classList.add('border-red-700')
     }
 
     if(!Boolean(company)) {
         isValidForm = false;
+        companyInput.classList.add('border-red-700')
     }
 
     console.log('is valid form', isValidForm);
